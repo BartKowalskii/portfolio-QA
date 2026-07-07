@@ -1,14 +1,12 @@
 # QA Portfolio – Bart
 
-Welcome to my Quality Assurance portfolio.
-
-This repository contains manual and test automation projects demonstrating experience with software testing across web and mobile applications.
+This repository showcases my Quality Assurance projects covering manual testing, API testing, and UI automation. It demonstrates practical experience creating test documentation, executing functional and regression testing, reporting defects, and building Selenium automation frameworks.
 
 ---
 
 ## Projects
 
-### [Project 1 – Betting App (iOS)](./BetPinnacle/1.README.md)
+### [📱 BetPinnacle iOS QA Testing](./BetPinnacle/1.README.md)
 Manual end-to-end testing of a pre-release betting app for iOS.  
 Includes functional, regression, and exploratory testing with real defect tracking in Jira.
 
@@ -23,7 +21,7 @@ Includes functional, regression, and exploratory testing with real defect tracki
 
 ---
 
-###  [Project 2 – WaniKani App Testing](./WaniKani/1.README.md)
+###  [🌐 WaniKani Web & API Testing](./WaniKani/1.README.md)
 Manual and API testing of the WaniKani studying app (Web/Windows).  
 Focus on UI behavior, validation, and API response accuracy.
 
