@@ -36,7 +36,7 @@ Focus on UI behavior, validation, and API response accuracy.
  *[View Project →](./WaniKani/1.README.md)*
 
 ---
-### 🤖 Stamply Automation (In Progress) (https://github.com/BartKowalskii/Stamply_qa_automation)
+### [🤖 Stamply Automation (In Progress)](https://github.com/BartKowalskii/Stamply_qa_automation)
 
 UI automation framework for a live web application built using Java and Selenium.
 
