@@ -49,7 +49,7 @@ UI automation framework for a live web application built using Java and Selenium
 - Page Object Model
 - Git & GitHub
 
-*[View Project →]*
+*[View Project →](Stamply_qa_automation/README.md)*
 
 ---
 
