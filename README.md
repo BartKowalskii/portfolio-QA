@@ -6,7 +6,7 @@ This repository showcases my Quality Assurance projects covering manual testing,
 
 ## Projects
 
-### [📱 BetPinnacle iOS QA Testing](./BetPinnacle/1.README.md)
+### [📱 BetPinnacle iOS QA Testing](./BetPinnacle/README.md)
 Manual end-to-end testing of a pre-release betting app for iOS.  
 Includes functional, regression, and exploratory testing with real defect tracking in Jira.
 
@@ -21,7 +21,7 @@ Includes functional, regression, and exploratory testing with real defect tracki
 
 ---
 
-###  [🌐 WaniKani Web & API Testing](./WaniKani/1.README.md)
+###  [🌐 WaniKani Web & API Testing](./WaniKani/README.md)
 Manual and API testing of the WaniKani studying app (Web/Windows).  
 Focus on UI behavior, validation, and API response accuracy.
 
