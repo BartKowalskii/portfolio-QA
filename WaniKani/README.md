@@ -11,6 +11,29 @@ Testing was performed using an Agile/Scrum-style approach with Jira for bug trac
 
 ---
 
+## 📊 Test Execution Summary
+
+### UI Testing (Registration & Login)
+* **Total Test Cases Executed:** 20
+* **Passed:** 18
+* **Failed:** 2
+* **Defects Logged in Jira:** 2 (`JIRAWK-01`, `JIRAWK-02`)
+
+### API Testing (Postman)
+* **Total Endpoints Tested:** 2 (`GET /user`, `GET /assignments`)
+* **Total API Test Cases:** 11
+* **Passed:** 11 / 0 Failed
+* **Assertions & Validations:** HTTP status codes (200, 401, 404), JSON payload schema/data presence checks, and performance thresholds (< 1000 ms response time).
+
+---
+
+## 📄 Test Documentation Files
+* [UI Test Cases (Registration & Login)](./docs/ui-test-cases.md)
+* [API Test Cases (Postman)](./docs/api-test-cases.md)
+* [Defect Reports (Jira)](./docs/bug-reports.md)
+
+---
+
 ## Scope
 Testing covered:
 - User Registration & Login
