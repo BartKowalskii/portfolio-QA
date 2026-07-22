@@ -11,26 +11,33 @@ Testing was performed using an Agile/Scrum-style approach with Jira for bug trac
 
 ---
 
-## 📊 Test Execution Summary
+## 📊 QA Metrics Summary
 
-### UI Testing (Registration & Login)
-* **Total Test Cases Executed:** 20
-* **Passed:** 18
-* **Failed:** 2
-* **Defects Logged in Jira:** 2 (`JIRAWK-01`, `JIRAWK-02`)
-
-### API Testing (Postman)
-* **Total Endpoints Tested:** 2 (`GET /user`, `GET /assignments`)
-* **Total API Test Cases:** 11
-* **Passed:** 11 / 0 Failed
-* **Assertions & Validations:** HTTP status codes (200, 401, 404), JSON payload schema/data presence checks, and performance thresholds (< 1000 ms response time).
+* **UI Test Cases:** 20 Test Cases (`test-cases/UI_TestCases.md`)
+* **API Test Cases:** 12 Test Cases (`test-cases/API_TestCases.md`)
+* **Regression Suite:** 10 Selected Scenarios (`test-cases/RegressionSuite.md`)
+* **Postman API Evidence:** 2 Visual Proof Screenshots (`Postman/`)
+* **Bugs Logged:** 3 Defects in Jira (`docs/JiraExport.md`)
 
 ---
 
-## 📄 Test Documentation Files
-* [UI Test Cases (Registration & Login)](./docs/ui-test-cases.md)
-* [API Test Cases (Postman)](./docs/api-test-cases.md)
-* [Defect Reports (Jira)](./docs/bug-reports.md)
+## 📑 Test Breakdown (32 Total Test Cases)
+
+### 1. UI & Functional Suite (20 Test Cases)
+* **Registration Flow (`REG-01` to `REG-14`):** 14 Test Cases covering password policies, checkbox validation, email formats, and empty states.
+* **Login Flow (`LOG-01` to `LOG-06`):** 6 Test Cases covering valid/invalid credentials, empty input handling, and redirects.
+
+### 2. API Test Suite (12 Test Cases)
+* **Authentication & Endpoints:** GET requests for User details, Assignments, and Study Reviews.
+* **API Validation:** Authorization headers, valid/invalid tokens, status codes (200, 401, 404), and JSON response structure.
+
+---
+
+## 🐛 Logged Defects (3 Jira Bugs)
+
+1. **JIRAWK-01 (High):** Invalid email format allowed during registration.
+2. **JIRAWK-02 (Medium):** Weak password missing complexity requirements is accepted.
+3. **JIRAWK-03 (Medium):** API endpoint response time exceeds threshold under standard GET payload.
 
 ---
 
