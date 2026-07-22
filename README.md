@@ -30,7 +30,7 @@ Includes functional, regression, and exploratory testing with real defect tracki
 - Functional & Exploratory Testing
 - iPhone 15 Pro (iOS 18.6)
 
- *[View Project →](./BetPinnacle/1.README.md)*
+ *[View Project →](./BetPinnacle/README.md)*
 
 ---
 
@@ -44,7 +44,7 @@ Focus on UI behavior, validation, and API response accuracy.
 - Tools: Jira, TestRail, Postman  
 - Windows 10 (version 10.0.19045) , Google Chrome (version 140.0.7339.208).
 
- *[View Project →](./WaniKani/1.README.md)*
+ *[View Project →](./WaniKani/README.md)*
 
 ---
 ### [🤖 Stamply Automation (In Progress)](https://github.com/BartKowalskii/Stamply_qa_automation)
