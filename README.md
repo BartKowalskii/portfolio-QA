@@ -4,6 +4,18 @@ This repository showcases my Quality Assurance projects covering manual testing,
 
 ---
 
+## 📊 Global Portfolio Metrics
+
+| Metric | BetPinnacle (iOS App) | WaniKani (Web App) | Total Portfolio |
+| :--- | :---: | :---: | :---: |
+| **Total Test Cases** | **28** | **20** | **48 Test Cases** |
+| **Regression Suite** | **10** | **10** | **20 Scenarios** |
+| **API Test Cases** | 0 | **12** | **12 Endpoints/Cases** |
+| **Bugs Logged (Jira)** | **4 Bugs** | **3 Bugs** | **7 Bugs** |
+| **Exploratory Sessions** | 1 Session (60 min) | 1 Session (45 min) | 2 Sessions |
+
+---
+
 ## Projects
 
 ### [📱 BetPinnacle iOS QA Testing](./BetPinnacle/README.md)
