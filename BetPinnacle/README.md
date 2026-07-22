@@ -10,6 +10,34 @@ The goal was to validate key user journeys and ensure stable functionality, UI c
 
 ⸻
 
+## 📊 QA Metrics Summary
+
+* **Functional Test Cases:** 28 Test Cases (`test-cases/TestCases.md`)
+* **Regression Suite:** 10 Selected Scenarios (`test-cases/RegressionSuite.md`)
+* **Exploratory Testing:** 1 Session / 60 Minutes (`docs/ExploratorySessionReport.md`)
+* **Bugs Logged:** 4 Defects in Jira (`docs/JiraExport.md`)
+
+---
+
+## 📑 Test Cases Breakdown (28 Test Cases)
+
+| Module | Test Cases Count | Focus Area |
+| :--- | :---: | :--- |
+| **Registration & Login** | **8 TC** | Field validations, edge cases, error messaging |
+| **Betting Engine (Sports & Races)** | **8 TC** | Odds selection, bet slips, race options |
+| **KYC & Document Verification** | **6 TC** | Upload flow, status handling, app stability |
+| **Deposits & Responsible Gambling** | **6 TC** | Deposit UI flow, daily/monthly limits |
+| **TOTAL** | **28 TC** | |
+
+---
+
+## 🐛 Logged Defects (4 Jira Bugs)
+
+1. **BB-5 (Critical):** App crashes upon entering document verification screen.
+2. **BB-2 (Medium):** Option selection unresponsive on Race screen.
+3. **BB-6 (Low):** "Boxed" text misaligned in Exotics section.
+4. **BB-9 (Low):** HTML/XML tags displayed raw on loading screen.
+
 ## Objectives
 	•	Verify core frontend functionality through manual end-to-end testing.
 	•	Identify and document functional, usability, and UI issues.
